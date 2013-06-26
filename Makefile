@@ -2,6 +2,8 @@ BOOTSTRAP = ./docs/assets/css/bootstrap.css
 BOOTSTRAP_LESS = ./less/bootstrap.less
 BOOTSTRAP_RESPONSIVE = ./docs/assets/css/bootstrap-responsive.css
 BOOTSTRAP_RESPONSIVE_LESS = ./less/responsive.less
+ODI_BOOTSTRAP_LESS = ./less/odi.less
+ODI_BOOTSTRAP = ./docs/assets/css/odi-bootstrap.css
 DATE=$(shell date +%I:%M%p)
 CHECK=\033[32m✔\033[39m
 HR=\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
@@ -20,9 +22,10 @@ build:
 	@echo "Running JSHint on javascript...             ${CHECK} Done"
 	@./node_modules/.bin/recess --compile ${BOOTSTRAP_LESS} > ${BOOTSTRAP}
 	@./node_modules/.bin/recess --compile ${BOOTSTRAP_RESPONSIVE_LESS} > ${BOOTSTRAP_RESPONSIVE}
+	@./node_modules/.bin/recess --compile ${ODI_BOOTSTRAP_LESS} > ${ODI_BOOTSTRAP}
 	@echo "Compiling LESS with Recess...               ${CHECK} Done"
 	@node docs/build
-	@cp img/* docs/assets/img/
+	@cp -r img/* docs/assets/img/
 	@cp js/*.js docs/assets/js/
 	@cp js/tests/vendor/jquery.js docs/assets/js/
 	@echo "Compiling documentation...                  ${CHECK} Done"
