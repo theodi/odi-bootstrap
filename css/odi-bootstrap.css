@@ -12,6 +12,7 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
+
 */
 
 /* import bootstrap this way so that we can alter variables just for this app */
@@ -8049,6 +8050,26 @@ header {
           font-smoothing: antialiased;
   color: #fff;
   background-color: #00b7ff;
+}
+
+body.red header {
+  background-color: #ff6700;
+}
+
+body.crimson header {
+  background-color: #d30102;
+}
+
+body.orange header {
+  background-color: #f99c06;
+}
+
+body.green header {
+  background-color: #0dbc37;
+}
+
+body.green header {
+  background-color: #dc4810;
 }
 
 header .container {
