@@ -7869,9 +7869,12 @@ hr.heavy {
 }
 
 #topbar {
-  position: relative;
   height: 70px;
   background: #1b1b1b;
+}
+
+#topbar .navbar-inner {
+  position: relative;
 }
 
 #topbar .navbar-inner h1 {
