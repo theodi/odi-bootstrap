@@ -15,34 +15,32 @@
 
 */
 
-
 /* import bootstrap this way so that we can alter variables just for this app */
-@import "bootstrap";
+@import "../bootstrap";
 
 // RESPONSIVE CLASSES
 // ------------------
 
-@import "responsive-utilities.less";
-
+@import "../responsive-utilities.less";
 
 // MEDIA QUERIES
 // ------------------
 
 // Large desktops
-@import "responsive-1200px-min.less";
+@import "../responsive-1200px-min.less";
 
 // Tablets to regular desktops
-@import "responsive-768px-979px.less";
+@import "../responsive-768px-979px.less";
 
 // Phones to portrait tablets and narrow desktops
-@import "responsive-767px-max.less";
+@import "../responsive-767px-max.less";
 
 
 // RESPONSIVE NAVBAR
 // ------------------
 
 // From 979px and below, show a button to toggle navbar contents
-@import "responsive-navbar.less";
+@import "../responsive-navbar.less";
 
 // use our own grey for the input field
 @gray: @odiGrey;
@@ -54,50 +52,6 @@
 // @gridColumnWidth:         70px;
 // @gridGutterWidth:         30px;
 // @gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
-
-
-@odiBlue: #00b7ff;
-/* odiBlueLight - primarily for background of inputs in modals */
-@odiBlueLight: lighten(@odiBlue, 15%);
-@odiBlueLighter: lighten(@odiBlue, 36%);
-@odiBlueDark: darken(@odiBlue, 5%);
-@odiBlueDarker: darken(@odiBlue, 20%);
-
-@odiRed: #ff6700;
-@odiRedDark: darken(@odiRed, 3%);
-@odiRedLight: lighten(@odiRed, 15%);
-
-@odiCrimson: #d30102;
-@odiCrimsonDark: darken(@odiCrimson, 6%);
-@odiCrimsonLight: lighten(@odiCrimson, 53%);
-
-@odiOrange: #f99C06;
-@odiOrangeDark: darken(@odiOrange, 6%);
-@odiOrangeLight: lighten(@odiOrange, 39%);
-
-@odiGreen: #0DBC37;
-@odiGreenDark: darken(@odiGreen, 6%);
-
-@odiPomegranate: #dc4810;
-@odiPomegranateDark: darken(@odiPomegranate, 3%);
-
-@odiGrey: #aaa;
-@odiGreyDark: darken(@odiGrey, 18%);
-@odiGreyDarker: darken(@odiGrey, 40%);
-@odiGreyLight: lighten(@odiGrey, 25%);
-@odiGreyLighter: lighten(@odiGrey, 40%);
-
-@btnPrimaryBackground: @odiRed;
-@btnPrimaryBackgroundHighlight: @odiRed;
-@btnInfoBackground:  @odiBlue;
-@btnInfoBackgroundHighlight: @odiBlue;
-
-@odiGrey: #8e8c8c;
-
-@basic: @odiBlue;
-@pilot: @odiBlue;
-@standard: @odiBlue;
-@exemplar: @odiBlue;
 
 // @headingsFontFamily:    'Open Sans',sans-serif;
 // @headingsFontWeight:    400;
@@ -153,7 +107,7 @@
 
   }
 
-  background: @odiBlue;
+  background: @accent;
   width: 788px;
   margin-left: -394px;
   .border-radius(0);
@@ -214,8 +168,8 @@
 
 .modal-body {
 
-  .btn-info { background: @odiBlueDark; }
-  .btn-info:active, .btn-info:hover, .btn-info:focus { background: @odiBlueDarker; }
+  .btn-info { background: @accentDark; }
+  .btn-info:active, .btn-info:hover, .btn-info:focus { background: @accentDarker; }
 
   .log-in {
 
@@ -236,7 +190,7 @@
       input[type=email], input[type=password] {
 
         margin-top: 5px;
-        background: @odiBlueLight;
+        background: @accentLight;
         border: 1px solid #fff;
         .border-radius(0);
         width: 93%;
@@ -275,7 +229,7 @@
     /* Needs to be overridden to be blue info button in modals */
     .btn-primary {
 
-      background: @odiBlueDark;
+      background: @accentDark;
       height: auto;
       padding: 10px 20px;
       float: right;
@@ -287,7 +241,7 @@
 
     .btn-primary:active, .btn-primary:hover, .btn-primary:focus {
 
-      background: @odiBlueDarker;
+      background: @accentDarker;
 
     }
 
@@ -395,28 +349,28 @@ input, textarea{
 }
 
 .btn-info {
-  background: @odiBlue;
+  background: @accent;
 
   &.btn-unstyled {
     &, &:active, &:hover, &:focus {
       font-size: 15px;
-      color: @odiBlue;
+      color: @accent;
       padding: 0;
       background: none;
     }
   }
 
   &:active, &:hover, &:focus {
-    background: @odiBlueDark;
+    background: @accentDark;
   }
 }
 
 .btn-info-modal {
-  background: @odiBlueDark;
+  background: @accentDark;
 }
 
 .btn-info-modal:active, .btn-info-modal:hover, .btn-info-modal:focus {
-  background: @odiBlueDarker;
+  background: @accentDarker;
 }
 
 .btn-primary {
@@ -495,7 +449,7 @@ header.affix {
   padding-bottom: 0;
 
   h1 {
-    color: @odiBlueDarker;
+    color: @accentDarker;
     font-size: 36px;
     margin-bottom: 30px;
     text-shadow: -1px -1px 0px rgba(255,255,255, 0.25);
@@ -527,7 +481,7 @@ header.affix {
 
     h2 {
       font-size: 70px;
-      color: @odiBlueDarker;
+      color: @accentDarker;
       font-weight: bold;
       text-shadow: -1px -1px 0px rgba(255,255,255, 0.25);
 
@@ -631,7 +585,7 @@ hr.heavy {
   }
 
   .label a:hover {
-    color: @odiBlueDarker;
+    color: @accentDarker;
     text-decoration: none;
   }
 }
@@ -663,7 +617,7 @@ hr.heavy {
     top: -15px;
     position: relative;
     padding-top: 10px;
-    background-color: @odiBlue;
+    background-color: @accent;
   }
 }
 
@@ -693,7 +647,7 @@ hr.heavy {
         text-shadow: 0 1px 0 #ffffff;
       }
       a:hover, button:hover {
-        color: @odiBlue;
+        color: @accent;
       }
 
       form {
@@ -702,7 +656,7 @@ hr.heavy {
     }
 
     li.active a, li.active button {
-      color: @odiBlue;
+      color: @accent;
     }
 
     .arrow-down {
@@ -818,27 +772,7 @@ nav .dropdown-menu-button {
 } 
 
 header {
-  background-color: @odiBlue;
-
-  body.red & {
-	background-color: @odiRed;
-  }
-
-  body.crimson & {
-	background-color: @odiCrimson;
-  }
-
-  body.orange & {
-	background-color: @odiOrange;
-  }
-
-  body.green & {
-	background-color: @odiGreen;
-  }
-
-  body.pomegranate & {
-	background-color: @odiPomegranate;
-  }
+  background-color: @accent;
 
   color: #fff;
   padding: 10px 0;
@@ -1118,7 +1052,7 @@ th {
 // My certificates view //
 
 .first-response-set {
-  background: @odiBlueLighter;
+  background: @accentLighter;
 
   td.level {
     text-align: center;
@@ -1255,7 +1189,7 @@ td.action {
 
   .subsection-label{
     border-top:1px solid @odiGreyLighter;
-    color:@odiBlue;
+    color:@accent;
     font-weight: normal;
     padding:20px 0;
   }
@@ -1361,8 +1295,8 @@ td.action {
 
       // hard to do the odd outline
 
-      // outline: 1px solid @odiBlueLight;
-      background-color: @odiBlueLighter;
+      // outline: 1px solid @accentLight;
+      background-color: @accentLighter;
     }
 
 
@@ -1371,7 +1305,7 @@ td.action {
       display:none;
       position:absolute;
       right:0;
-      background-color:@odiBlueLighter;
+      background-color:@accentLighter;
       padding:20px;
       width:330px;
 
@@ -1388,7 +1322,7 @@ td.action {
       &.has-response{
         background-color:@white;
         &.active{
-          background-color:@odiBlueLighter;
+          background-color:@accentLighter;
         }
       }
     }
@@ -1844,7 +1778,7 @@ padding-bottom: 18px;
   background-color: #fff;
   float: none;
 display: block;
-color: @odiBlue;
+color: @accent;
 }
 
 #register {

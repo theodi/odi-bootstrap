@@ -7298,7 +7298,7 @@ a.badge:focus {
 .modal {
   width: 788px;
   margin-left: -394px;
-  background: #00b7ff;
+  background: #dc4810;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
@@ -7392,13 +7392,13 @@ a.badge:focus {
 }
 
 .modal-body .btn-info {
-  background: #00a5e6;
+  background: #c4400e;
 }
 
 .modal-body .btn-info:active,
 .modal-body .btn-info:hover,
 .modal-body .btn-info:focus {
-  background: #006e99;
+  background: #7d2909;
 }
 
 .modal-body .log-in {
@@ -7427,7 +7427,7 @@ a.badge:focus {
   margin-top: 5px;
   font-size: 20px;
   color: #fff;
-  background: #4dcdff;
+  background: #f27647;
   border: 1px solid #fff;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
@@ -7468,13 +7468,13 @@ a.badge:focus {
   margin: -5px 22px 5px 0;
   font-size: 18px;
   font-weight: bold;
-  background: #00a5e6;
+  background: #c4400e;
 }
 
 .modal-body .log-in .btn-primary:active,
 .modal-body .log-in .btn-primary:hover,
 .modal-body .log-in .btn-primary:focus {
-  background: #006e99;
+  background: #7d2909;
 }
 
 .modal-body .log-in .sign_in_user_form_errors {
@@ -7638,7 +7638,7 @@ textarea {
 }
 
 .btn-info {
-  background: #00b7ff;
+  background: #dc4810;
 }
 
 .btn-info.btn-unstyled,
@@ -7647,24 +7647,24 @@ textarea {
 .btn-info.btn-unstyled:focus {
   padding: 0;
   font-size: 15px;
-  color: #00b7ff;
+  color: #dc4810;
   background: none;
 }
 
 .btn-info:active,
 .btn-info:hover,
 .btn-info:focus {
-  background: #00a5e6;
+  background: #c4400e;
 }
 
 .btn-info-modal {
-  background: #00a5e6;
+  background: #c4400e;
 }
 
 .btn-info-modal:active,
 .btn-info-modal:hover,
 .btn-info-modal:focus {
-  background: #006e99;
+  background: #7d2909;
 }
 
 .btn-primary {
@@ -7744,7 +7744,7 @@ header.affix {
 .home h1 {
   margin-bottom: 30px;
   font-size: 36px;
-  color: #006e99;
+  color: #7d2909;
   text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.25);
 }
 
@@ -7772,7 +7772,7 @@ header.affix {
 .home .span4 h2 {
   font-size: 70px;
   font-weight: bold;
-  color: #006e99;
+  color: #7d2909;
   text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.25);
 }
 
@@ -7864,7 +7864,7 @@ hr.heavy {
 }
 
 .navbar-inner .label a:hover {
-  color: #006e99;
+  color: #7d2909;
   text-decoration: none;
 }
 
@@ -7897,7 +7897,7 @@ hr.heavy {
   position: relative;
   top: -15px;
   padding-top: 10px;
-  background-color: #00b7ff;
+  background-color: #dc4810;
 }
 
 #mainnav {
@@ -7932,7 +7932,7 @@ hr.heavy {
 
 #mainnav .navbar-inner li a:hover,
 #mainnav .navbar-inner li button:hover {
-  color: #00b7ff;
+  color: #dc4810;
 }
 
 #mainnav .navbar-inner li form {
@@ -7941,7 +7941,7 @@ hr.heavy {
 
 #mainnav .navbar-inner li.active a,
 #mainnav .navbar-inner li.active button {
-  color: #00b7ff;
+  color: #dc4810;
 }
 
 #mainnav .navbar-inner .arrow-down {
@@ -8083,7 +8083,7 @@ header {
   -webkit-font-smoothing: antialiased;
           font-smoothing: antialiased;
   color: #fff;
-  background-color: #00b7ff;
+  background-color: #dc4810;
 }
 
 header .container {
@@ -8364,7 +8364,7 @@ th {
 }
 
 .first-response-set {
-  background: #b8ebff;
+  background: #f9c0ab;
 }
 
 .first-response-set td.level {
@@ -8498,7 +8498,7 @@ td.action form {
 #surveyor .subsection-label {
   padding: 20px 0;
   font-weight: normal;
-  color: #00b7ff;
+  color: #dc4810;
   border-top: 1px solid #f3f3f3;
 }
 
@@ -8598,7 +8598,7 @@ td.action form {
 }
 
 #surveyor fieldset.question-row.active {
-  background-color: #b8ebff;
+  background-color: #f9c0ab;
 }
 
 #surveyor fieldset.question-row aside {
@@ -8607,7 +8607,7 @@ td.action form {
   display: none;
   width: 330px;
   padding: 20px;
-  background-color: #b8ebff;
+  background-color: #f9c0ab;
 }
 
 #surveyor fieldset.question-row aside.answer-meta {
@@ -8623,7 +8623,7 @@ td.action form {
 }
 
 #surveyor.highlight-mandatory .mandatory.has-response.active {
-  background-color: #b8ebff;
+  background-color: #f9c0ab;
 }
 
 #status_panel {
@@ -9075,7 +9075,7 @@ section.improvement.improvement-basic a {
     display: block;
     float: none;
     margin: -102px auto 8px;
-    color: #00b7ff;
+    color: #dc4810;
     background-color: #fff;
   }
   #register {
