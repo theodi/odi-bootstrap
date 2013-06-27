@@ -9044,18 +9044,6 @@ section.improvement.improvement-basic a {
 }
 
 @media (max-width: 767px) {
-  #topbar {
-    height: 100px;
-  }
-  #topbar .navbar-inner h1 {
-    top: auto;
-    bottom: 0;
-    left: 20px;
-    font-size: 27px;
-  }
-  #topbar .navbar-inner .brand {
-    left: 20px;
-  }
   header {
     padding-left: 20px;
   }
@@ -9093,6 +9081,18 @@ section.improvement.improvement-basic a {
 }
 
 @media (max-width: 479px) {
+  #topbar {
+    height: 100px;
+  }
+  #topbar .navbar-inner h1 {
+    top: auto;
+    bottom: 0;
+    left: 20px;
+    font-size: 27px;
+  }
+  #topbar .navbar-inner .brand {
+    left: 20px;
+  }
   .odi-bleed .navbar .brand {
     padding-bottom: 18px;
   }
@@ -9146,6 +9146,11 @@ section.improvement.improvement-basic a {
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+  #topbar .navbar-inner {
+    width: 724px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   #padd .container .offset8 {
     margin-left: 416px;
   }
