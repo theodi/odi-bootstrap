@@ -15,6 +15,42 @@
 
 */
 
+/*
+  © 2013 Open Data Institute
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+*/
+
+/* odiBlueLight - primarily for background of inputs in modals */
+
+/*
+  © 2013 Open Data Institute
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+*/
+
 /* import bootstrap this way so that we can alter variables just for this app */
 
 /*!
@@ -3379,17 +3415,17 @@ input[type="button"].btn-block {
 .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #ff6700;
-  *background-color: #ff6700;
-  background-image: -moz-linear-gradient(top, #ff6700, #ff6700);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6700), to(#ff6700));
-  background-image: -webkit-linear-gradient(top, #ff6700, #ff6700);
-  background-image: -o-linear-gradient(top, #ff6700, #ff6700);
-  background-image: linear-gradient(to bottom, #ff6700, #ff6700);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
   background-repeat: repeat-x;
-  border-color: #ff6700 #ff6700 #b34800;
+  border-color: #0044cc #0044cc #002a80;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff6700', endColorstr='#ffff6700', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
@@ -3400,13 +3436,13 @@ input[type="button"].btn-block {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #ff6700;
-  *background-color: #e65d00;
+  background-color: #0044cc;
+  *background-color: #003bb3;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #cc5200 \9;
+  background-color: #003399 \9;
 }
 
 .btn-warning {
@@ -3511,17 +3547,17 @@ input[type="button"].btn-block {
 .btn-info {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #00b7ff;
-  *background-color: #00b7ff;
-  background-image: -moz-linear-gradient(top, #00b7ff, #00b7ff);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00b7ff), to(#00b7ff));
-  background-image: -webkit-linear-gradient(top, #00b7ff, #00b7ff);
-  background-image: -o-linear-gradient(top, #00b7ff, #00b7ff);
-  background-image: linear-gradient(to bottom, #00b7ff, #00b7ff);
+  background-color: #49afcd;
+  *background-color: #2f96b4;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
   background-repeat: repeat-x;
-  border-color: #00b7ff #00b7ff #0080b3;
+  border-color: #2f96b4 #2f96b4 #1f6377;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00b7ff', endColorstr='#ff00b7ff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
@@ -3532,13 +3568,13 @@ input[type="button"].btn-block {
 .btn-info.disabled,
 .btn-info[disabled] {
   color: #ffffff;
-  background-color: #00b7ff;
-  *background-color: #00a5e6;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
 }
 
 .btn-info:active,
 .btn-info.active {
-  background-color: #0092cc \9;
+  background-color: #24748c \9;
 }
 
 .btn-inverse {
@@ -3789,7 +3825,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #ff6700;
+  background-color: #0044cc;
 }
 
 .btn-group.open .btn-warning.dropdown-toggle {
@@ -3805,7 +3841,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group.open .btn-info.dropdown-toggle {
-  background-color: #00b7ff;
+  background-color: #2f96b4;
 }
 
 .btn-group.open .btn-inverse.dropdown-toggle {
@@ -7253,8 +7289,6 @@ a.badge:focus {
   }
 }
 
-/* odiBlueLight - primarily for background of inputs in modals */
-
 /*
 //
 // ***** Modal - Create certificate *****
@@ -7449,7 +7483,7 @@ a.badge:focus {
 
 .btn.btn-confirmed,
 .btn.btn-confirmed:hover {
-  background-color: #ff6700;
+  background-color: #0088cc;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -8050,26 +8084,6 @@ header {
           font-smoothing: antialiased;
   color: #fff;
   background-color: #00b7ff;
-}
-
-body.red header {
-  background-color: #ff6700;
-}
-
-body.crimson header {
-  background-color: #d30102;
-}
-
-body.orange header {
-  background-color: #f99c06;
-}
-
-body.green header {
-  background-color: #0dbc37;
-}
-
-body.pomegranate header {
-  background-color: #dc4810;
 }
 
 header .container {
