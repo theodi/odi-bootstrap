@@ -1,3 +1,5 @@
+CLONE_URL = git@github.com:theodi/odi-bootstrap.git
+REPO_DIR=$(shell pwd)
 BOOTSTRAP = ./docs/assets/css/bootstrap.css
 BOOTSTRAP_LESS = ./less/bootstrap.less
 BOOTSTRAP_RESPONSIVE = ./docs/assets/css/bootstrap-responsive.css
@@ -5,6 +7,7 @@ BOOTSTRAP_RESPONSIVE_LESS = ./less/responsive.less
 ODI_BOOTSTRAP_LESS = ./less/odi.less
 ODI_BOOTSTRAP = ./docs/assets/css/odi-bootstrap.css
 DATE=$(shell date +%I:%M%p)
+DATETIME=$(shell date '+%Y-%m-%d %H:%M')
 CHECK=\033[32m✔\033[39m
 HR=\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
 
@@ -127,3 +130,22 @@ watch:
 
 
 .PHONY: docs watch gh-pages bootstrap-img bootstrap-css bootstrap-js
+	
+#
+# Upload latest build to Github pages
+#
+
+upload:
+	make build
+	echo "Uploading..." ; \
+	echo "\n${HR}" ; \
+	git clone ${CLONE_URL} /tmp/odi-bootstrap; \
+	cd /tmp/odi-bootstrap; \
+	git checkout gh-pages; \
+	cp -R ${REPO_DIR}/docs/assets/* /tmp/odi-bootstrap ; \
+	git add . ; \
+	git commit -m 'Update ${DATETIME}' . ; \
+	git push origin gh-pages
+	rm -rf /tmp/odi-bootstrap
+	
+	
