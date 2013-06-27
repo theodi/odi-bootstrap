@@ -9026,16 +9026,16 @@ section.improvement.improvement-basic a {
 }
 
 @media (max-width: 767px) {
-  #topbar .navbar-inner .brand {
+  #topbar .navbar-inner {
     height: 100px;
   }
-  #topbar .navbar-inner .brand h1 {
+  #topbar .navbar-inner h1 {
     top: auto;
     bottom: 0;
     left: 20px;
     font-size: 27px;
   }
-  #topbar .navbar-inner .brand .brand {
+  #topbar .navbar-inner .brand {
     left: 20px;
   }
   header {
