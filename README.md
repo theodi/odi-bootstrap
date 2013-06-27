@@ -4,7 +4,7 @@ Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and
 
 To get started, checkout [http://getbootstrap.com](http://getbootstrap.com)!
 
-** CAUTION ** May contain Magic Space Future ODI additions
+**CAUTION** May contain Magic Space Future ODI additions
 
 ## Quick start
 
