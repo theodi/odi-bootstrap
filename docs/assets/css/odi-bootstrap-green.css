@@ -7869,7 +7869,25 @@ hr.heavy {
 }
 
 #topbar {
+  height: 70px;
   background: #1b1b1b;
+}
+
+#topbar .navbar-inner {
+  position: relative;
+}
+
+#topbar .navbar-inner h1 {
+  position: absolute;
+  top: 14px;
+  margin: 0;
+  font-size: 32px;
+  color: #fff;
+}
+
+#topbar .navbar-inner .brand {
+  position: absolute;
+  right: 0;
 }
 
 #topbar ul {
@@ -9026,6 +9044,21 @@ section.improvement.improvement-basic a {
 }
 
 @media (max-width: 767px) {
+  #topbar {
+    height: 100px;
+  }
+  #topbar .navbar-inner h1 {
+    top: auto;
+    bottom: 0;
+    left: 20px;
+    font-size: 27px;
+  }
+  #topbar .navbar-inner .brand {
+    left: 20px;
+  }
+  header {
+    padding-left: 20px;
+  }
   p.logo {
     display: none;
   }

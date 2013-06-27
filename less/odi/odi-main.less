@@ -592,6 +592,24 @@ hr.heavy {
 
 #topbar {
   background: #1b1b1b;
+  height: 70px;
+
+  .navbar-inner {
+	 position: relative;
+
+	 h1 {
+		color: #fff;
+		font-size: 32px;
+		position: absolute;
+		top: 14px;
+		margin: 0;
+	  }
+
+	  .brand {
+		position: absolute;
+		right: 0;
+	  }
+  } 
 
   ul {
     border-right: 1px solid #707070;
@@ -1712,6 +1730,27 @@ section.improvement{
 
 @media (max-width: 767px) {
 
+#topbar {
+	height: 100px;
+	 .navbar-inner {
+	
+		h1 {
+			left: 20px;
+			top: auto;
+			bottom: 0;
+			font-size: 27px;
+		}
+	
+		.brand {
+			left: 20px;
+		}
+	}
+}
+
+header {
+	padding-left: 20px;
+}
+
 p.logo {
   display: none;
 }
@@ -1845,6 +1884,11 @@ padding: 0;
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+#topbar .navbar-inner {
+	width: 724px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 #padd {
   .container {
