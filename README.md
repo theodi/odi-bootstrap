@@ -4,7 +4,7 @@ Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and
 
 To get started, checkout [http://getbootstrap.com](http://getbootstrap.com)!
 
-
+** CAUTION ** May contain Magic Space Future ODI additions
 
 ## Quick start
 
@@ -71,9 +71,6 @@ Runs jshint and qunit tests headlessly in [phantomjs](http://code.google.com/p/p
 This is a convenience method for watching just Less files and automatically building them whenever you save. Requires the Watchr gem.
 
 Should you encounter problems with installing dependencies or running the makefile commands, be sure to first uninstall any previous versions (global and local) you may have installed, and then rerun `npm install`.
-
-### Upload - `make upload`
-This is a special ODI method which builds the `/less` files, clones the current repo into a temporary directory, copies the compiled css, together with the js and images, and pushes them to a `gh-pages` branch, so we can serve them from [Github Pages](http://pages.github.com/). If you want to use this for your own project, simply change the `CLONE_URL` variable at the top of the `Makefile`.
 
 ## Contributing
 
