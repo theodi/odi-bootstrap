@@ -9146,6 +9146,11 @@ section.improvement.improvement-basic a {
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+  #topbar .navbar-inner {
+    width: 724px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   #padd .container .offset8 {
     margin-left: 416px;
   }
