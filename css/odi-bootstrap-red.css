@@ -9044,7 +9044,7 @@ section.improvement.improvement-basic a {
 }
 
 @media (max-width: 767px) {
-  #topbar .navbar-inner {
+  #topbar {
     height: 100px;
   }
   #topbar .navbar-inner h1 {
