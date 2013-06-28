@@ -7,11 +7,13 @@ BOOTSTRAP_RESPONSIVE_LESS = ./less/responsive.less
 ODI_BOOTSTRAP_LESS = ./less/odi/odi.less
 ODI_BOOTSTRAP_CRIMSON_LESS = ./less/odi/odi-crimson.less
 ODI_BOOTSTRAP_GREEN_LESS = ./less/odi/odi-green.less
+ODI_BOOTSTRAP_ORANGE_LESS = ./less/odi/odi-orange.less
 ODI_BOOTSTRAP_POMEGRANATE_LESS = ./less/odi/odi-pomegranate.less
 ODI_BOOTSTRAP_RED_LESS = ./less/odi/odi-red.less
 ODI_BOOTSTRAP = ./docs/assets/css/odi-bootstrap.css
 ODI_BOOTSTRAP_CRIMSON = ./docs/assets/css/odi-bootstrap-crimson.css
 ODI_BOOTSTRAP_GREEN = ./docs/assets/css/odi-bootstrap-green.css
+ODI_BOOTSTRAP_ORANGE = ./docs/assets/css/odi-bootstrap-orange.css
 ODI_BOOTSTRAP_POMEGRANATE = ./docs/assets/css/odi-bootstrap-pomegranate.css
 ODI_BOOTSTRAP_RED = ./docs/assets/css/odi-bootstrap-red.css
 DATE=$(shell date +%I:%M%p)
@@ -36,6 +38,7 @@ build:
 	@./node_modules/.bin/recess --compile ${ODI_BOOTSTRAP_LESS} > ${ODI_BOOTSTRAP}
 	@./node_modules/.bin/recess --compile ${ODI_BOOTSTRAP_CRIMSON_LESS} > ${ODI_BOOTSTRAP_CRIMSON}
 	@./node_modules/.bin/recess --compile ${ODI_BOOTSTRAP_GREEN_LESS} > ${ODI_BOOTSTRAP_GREEN}
+	@./node_modules/.bin/recess --compile ${ODI_BOOTSTRAP_ORANGE_LESS} > ${ODI_BOOTSTRAP_ORANGE}
 	@./node_modules/.bin/recess --compile ${ODI_BOOTSTRAP_POMEGRANATE_LESS} > ${ODI_BOOTSTRAP_POMEGRANATE}
 	@./node_modules/.bin/recess --compile ${ODI_BOOTSTRAP_RED_LESS} > ${ODI_BOOTSTRAP_RED}
 	@echo "Compiling LESS with Recess...               ${CHECK} Done"
