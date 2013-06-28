@@ -2,7 +2,7 @@ task :upload do
   require './lib/upload.rb'
   
   # Build bootstrap
-  `make`
+  puts `make`
   
   # Upload files
   
