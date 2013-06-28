@@ -17,6 +17,7 @@ class BootstrapUpload
   end
 
   def self.upload_file(file, key)
+    puts "Uploading #{key}"
     rackspace.files.create :key => key, :body => File.open(file)
   end
 
