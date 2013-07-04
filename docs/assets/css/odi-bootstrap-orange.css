@@ -7264,7 +7264,7 @@ a.badge:focus {
 .modal {
   width: 788px;
   margin-left: -394px;
-  background: #dc4810;
+  background: #f99c06;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
@@ -7358,13 +7358,13 @@ a.badge:focus {
 }
 
 .modal-body .btn-info {
-  background: #c4400e;
+  background: #e08c05;
 }
 
 .modal-body .btn-info:active,
 .modal-body .btn-info:hover,
 .modal-body .btn-info:focus {
-  background: #7d2909;
+  background: #955e04;
 }
 
 .modal-body .log-in {
@@ -7393,7 +7393,7 @@ a.badge:focus {
   margin-top: 5px;
   font-size: 20px;
   color: #fff;
-  background: #f27647;
+  background: #fbba51;
   border: 1px solid #fff;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
@@ -7434,13 +7434,13 @@ a.badge:focus {
   margin: -5px 22px 5px 0;
   font-size: 18px;
   font-weight: bold;
-  background: #c4400e;
+  background: #e08c05;
 }
 
 .modal-body .log-in .btn-primary:active,
 .modal-body .log-in .btn-primary:hover,
 .modal-body .log-in .btn-primary:focus {
-  background: #7d2909;
+  background: #955e04;
 }
 
 .modal-body .log-in .sign_in_user_form_errors {
@@ -7608,7 +7608,7 @@ textarea {
 }
 
 .btn-info {
-  background: #dc4810;
+  background: #f99c06;
 }
 
 .btn-info.btn-unstyled,
@@ -7617,24 +7617,24 @@ textarea {
 .btn-info.btn-unstyled:focus {
   padding: 0;
   font-size: 15px;
-  color: #dc4810;
+  color: #f99c06;
   background: none;
 }
 
 .btn-info:active,
 .btn-info:hover,
 .btn-info:focus {
-  background: #c4400e;
+  background: #e08c05;
 }
 
 .btn-info-modal {
-  background: #c4400e;
+  background: #e08c05;
 }
 
 .btn-info-modal:active,
 .btn-info-modal:hover,
 .btn-info-modal:focus {
-  background: #7d2909;
+  background: #955e04;
 }
 
 .btn-primary {
@@ -7714,7 +7714,7 @@ header.affix {
 .home h1 {
   margin-bottom: 30px;
   font-size: 36px;
-  color: #7d2909;
+  color: #955e04;
   text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.25);
 }
 
@@ -7742,7 +7742,7 @@ header.affix {
 .home .span4 h2 {
   font-size: 70px;
   font-weight: bold;
-  color: #7d2909;
+  color: #955e04;
   text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.25);
 }
 
@@ -7843,7 +7843,7 @@ hr.heavy {
 }
 
 .navbar-inner .label a:hover {
-  color: #7d2909;
+  color: #955e04;
   text-decoration: none;
 }
 
@@ -7896,7 +7896,7 @@ hr.heavy {
   position: relative;
   top: -15px;
   padding-top: 10px;
-  background-color: #dc4810;
+  background-color: #f99c06;
 }
 
 #mainnav {
@@ -7929,7 +7929,7 @@ hr.heavy {
 
 #mainnav .navbar-inner li a:hover,
 #mainnav .navbar-inner li button:hover {
-  color: #dc4810;
+  color: #f99c06;
 }
 
 #mainnav .navbar-inner li form {
@@ -7938,7 +7938,7 @@ hr.heavy {
 
 #mainnav .navbar-inner li.active a,
 #mainnav .navbar-inner li.active button {
-  color: #dc4810;
+  color: #f99c06;
 }
 
 #mainnav .navbar-inner .arrow-down {
@@ -8080,7 +8080,7 @@ header {
   -webkit-font-smoothing: antialiased;
           font-smoothing: antialiased;
   color: #fff;
-  background-color: #dc4810;
+  background-color: #f99c06;
 }
 
 header .container {
@@ -8228,8 +8228,8 @@ header h6 {
 }
 
 .alert-info {
-  background: #dc4810;
-  border: 1px solid #c4400e;
+  background: #f99c06;
+  border: 1px solid #e08c05;
 }
 
 .alert-warning {
@@ -8369,7 +8369,7 @@ th {
 }
 
 .first-response-set {
-  background: #f9c0ab;
+  background: #fde3b9;
 }
 
 .first-response-set td.level {
@@ -8503,7 +8503,7 @@ td.action form {
 #surveyor .subsection-label {
   padding: 20px 0;
   font-weight: normal;
-  color: #dc4810;
+  color: #f99c06;
   border-top: 1px solid #f3f3f3;
 }
 
@@ -8603,7 +8603,7 @@ td.action form {
 }
 
 #surveyor fieldset.question-row.active {
-  background-color: #f9c0ab;
+  background-color: #fde3b9;
 }
 
 #surveyor fieldset.question-row aside {
@@ -8612,7 +8612,7 @@ td.action form {
   display: none;
   width: 330px;
   padding: 20px;
-  background-color: #f9c0ab;
+  background-color: #fde3b9;
 }
 
 #surveyor fieldset.question-row aside.answer-meta {
@@ -8628,7 +8628,7 @@ td.action form {
 }
 
 #surveyor.highlight-mandatory .mandatory.has-response.active {
-  background-color: #f9c0ab;
+  background-color: #fde3b9;
 }
 
 #status_panel {
@@ -9098,7 +9098,7 @@ section.improvement.improvement-basic a {
     display: block;
     float: none;
     margin: -102px auto 8px;
-    color: #dc4810;
+    color: #f99c06;
     background-color: #fff;
   }
   #register {

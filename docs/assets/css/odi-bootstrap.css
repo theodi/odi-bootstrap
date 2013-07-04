@@ -15,41 +15,7 @@
 
 */
 
-/*
-  © 2013 Open Data Institute
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-
-*/
-
 /* odiBlueLight - primarily for background of inputs in modals */
-
-/*
-  © 2013 Open Data Institute
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-
-*/
 
 /* import bootstrap this way so that we can alter variables just for this app */
 
@@ -7507,9 +7473,11 @@ a.badge:focus {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
   vertical-align: middle;
+  background: #ff6700;
   background-color: #fcf8e3;
   background-color: #f2dede;
   border: 1px solid #fbeed5;
+  border: 1px solid #f06100;
   border-color: #eed3d7;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
@@ -7601,8 +7569,6 @@ p {
 
 .lead p,
 p.lead {
-  margin-bottom: 30px;
-  font-size: 17px;
   color: #8e8c8c;
 }
 
@@ -7635,6 +7601,10 @@ textarea {
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
           box-shadow: none;
+}
+
+.btn {
+  background: #eee;
 }
 
 .btn-info {
@@ -7829,8 +7799,15 @@ header.affix {
   border-top: 1px solid #e1e1e1;
 }
 
+h2 {
+  font-weight: normal;
+}
+
 h3 {
+  margin: 5px 0 14px 0;
   font-size: 19px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 h4 {
@@ -7846,7 +7823,7 @@ hr {
 
 hr.heavy {
   height: 5px;
-  background: url(divider.png);
+  background: url(../img/divider.png);
   border: 0;
 }
 
@@ -8250,6 +8227,11 @@ header h6 {
   border: 1px solid #b50102;
 }
 
+.alert-info {
+  background: #00b7ff;
+  border: 1px solid #00a5e6;
+}
+
 .alert-warning {
   background: #f99c06;
   border: 1px solid #db8905;
@@ -8258,6 +8240,11 @@ header h6 {
 .alert-notice {
   background: #0dbc37;
   border: 1px solid #0b9f2f;
+}
+
+.alert-error {
+  background: #ff6700;
+  border: 1px solid #f06100;
 }
 
 #topbar .alert-box h3 {
@@ -8311,6 +8298,10 @@ th {
   font-weight: normal;
 }
 
+#main li {
+  margin-bottom: 5px;
+}
+
 .main-default {
   margin-top: 30px;
 }
@@ -8340,26 +8331,20 @@ th {
   display: inline;
 }
 
-.main-default input {
-  height: 60px;
-  padding: 0 10px;
-  margin: 15px 0;
-  font-size: 20px;
-}
-
-.main-default input[type='submit'] {
-  margin: 15px 0 30px;
+.main-default input[type="text"],
+.main-default input[type="email"],
+.main-default input[type="url"],
+.main-default input[type="password"],
+.main-default input[type="tel"],
+.main-default .uneditable-input,
+.main-default textarea {
+  width: 350px;
+  padding: 7px;
+  font-size: 18px;
 }
 
 .main-default label {
-  font-size: 22px;
-}
-
-.main-default i {
-  display: block;
-  font-size: 15px;
-  font-style: normal;
-  color: #8e8c8c;
+  font-size: 18px;
 }
 
 .user-links {

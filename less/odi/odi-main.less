@@ -312,9 +312,7 @@ p {
 
 .lead p,
 p.lead {
-  font-size: 17px;
   color: @odiGrey;
-  margin-bottom: 30px;
 }
 
 dl {
@@ -951,6 +949,11 @@ section {
   border: 1px solid @odiCrimsonDark;
 }
 
+.alert-info {
+  background: @accent;
+  border: 1px solid @accentDark;
+}
+
 .alert-warning {
   background: @odiOrange;
   border: 1px solid @odiOrangeDark;
@@ -959,6 +962,11 @@ section {
 .alert-notice {
   background: @odiGreen;
   border: 1px solid @odiGreenDark;
+}
+
+.alert-error {
+  background: @odiRed;
+  border: 1px solid @odiRedDark;
 }
 
 #topbar .alert-box {
@@ -1042,27 +1050,16 @@ th {
     }
   }
 
-  input {
-    height: 60px;
-    font-size: 20px;
-    padding: 0 10px;
-    margin: 15px 0;
-  }
-
-  input[type='submit'] {
-    margin: 15px 0 30px;
+  input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="tel"], .uneditable-input, textarea {
+		font-size: 18px;
+		padding: 7px;
+		width: 350px;
   }
 
   label {
-    font-size: 22px;
+    font-size: 18px;
   }
 
-  i {
-    font-size: 15px;
-    font-style: normal;
-    color: @odiGrey;
-    display: block;
-  }
 }
 
 
